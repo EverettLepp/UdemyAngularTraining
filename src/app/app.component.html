@@ -1,2 +1,23 @@
-<input type="text" [(ngModel)]="name">
-<p>{{name}}</p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3>I'm in AppComponent</h3>
+      <hr>
+      <app-servers></app-servers>
+      <br>
+      <app-timestamps></app-timestamps>
+      <!-- <app-warning-alert>
+      </app-warning-alert>
+      <app-success-alert>
+      </app-success-alert> -->
+    </div>
+    <!-- <div class="row">
+      <br>
+      <input type="text" class="form-control" [(ngModel)]="userName"/>
+      <p>{{userName}}</p>
+      <br>
+      <button class="btn btn-primary" (click)="userName = ''" [disabled]="userName == ''">Reset username</button>
+      <br>
+    </div> -->
+  </div>
+</div>
